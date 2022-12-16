@@ -30,6 +30,10 @@ img {
             display: none;
           }
 
+        .mobile-Tablet{
+          display: block;
+        }
+
   /*stly for header area*/
     .mobile h1{
       padding: 2%;
@@ -136,6 +140,14 @@ img {
          #contact{
            text-align: center;
          }
+         #contact, #form h2 {
+  text-align: center;
+
+}
+#contact .email-link {
+  color: #4645a8;
+  text-decoration: none;
+  font-weight: bold;
          .tel-link{
            background-color: #2a1f14;
            padding: 2%;
@@ -148,7 +160,38 @@ img {
   text-decoration: none;
   font-weight: bold;
 }
+/* Style rules for form elements */
+fieldset {
+  margin-bottom: 2%;
+}
+input {
+  margin-bottom: 2%;
+}
+textarea {
+  margin-bottom: 2%;
+}
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+label {
+  display: block;
+  padding-top: 2%;
+}
+#submit {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 2%;
+  background-color: #78593a;
+  color: #f6eee4;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
              /* Style rules for footer content */
+
              footer  {
                text-align: center;
                font-size: 0.85em;
@@ -194,6 +237,10 @@ img {
            .mobile {
            display: none;
            }
+
+           .mobile-tablet {
+             display: none;
+           }
 /*Desktop style for nav area*/
 nav li {
   font-size: 1.5em;
@@ -225,6 +272,37 @@ aside{
           margin-left: 5%
 
            }
+           table {
+  border: 1px solid #2a1f14;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 1%;
+}
+th,td {
+  border: 1px solid #2a1f14;
+  padding: 1%;
+}
+th {
+  background-color: #2a1f14;
+  color: #fff;
+  font-size: 1.15em;
+}
+tr:nth-child(odd) {
+  background-color: #deccba;
+}
+/* Desktop viewport: style rule for form element */
+  form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  btn {
+    grid-column: 1 / span 2;
+  }
          }
 
  /*Media Query for desktop*/
